@@ -11,7 +11,7 @@ int main(){
     vector <int> list1 {3,6,9,4};
     
     int position{0}; // position must be 0 because index in list starts with 0
-                    // Eg. position 0 gives 2; position 1 gives 4, etc..
+                    // Eg. position 0 gives 3; position 1 gives 6, etc..
     while (list1.at(position)!= 9 && position<list1.size()){
        
         position +=1; // position here refers to index
