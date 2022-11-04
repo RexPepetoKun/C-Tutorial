@@ -3,7 +3,7 @@
 using namespace std;
 
 //Given a vector of integers, determine how many integers are present before 
-//you see the value -99 . Note, it's possible -99  is not in the vector! 
+//you see 9 . Note, it's possible 9  is not in the vector! 
 //If -99  is not in the vector then the result will be equal to the number of elements 
 //in the vector.
 
