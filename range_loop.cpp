@@ -14,7 +14,11 @@ int main() {
     cin>>denominator;
     for(auto i:list1){
         if (i%denominator==0){
+<<<<<<< HEAD
             count+=1;
+=======
+            (count+=1);
+>>>>>>> daed541b7a06fdd65ee80c108c77f4e4ad1951a1
         }
     }
 
