@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//Kaikun, scroll down to line60.when running program, typing S in terminal will return 0 and not 2 as smallest integer in vector. 
 
 int main(){
 
