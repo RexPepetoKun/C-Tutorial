@@ -83,7 +83,7 @@ string.insert(length,character to be added)  //character can be string,whitespac
 string.swap(a,b)
 
 ```
-
+11. 
 
 
 

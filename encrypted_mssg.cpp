@@ -29,7 +29,7 @@ int main(){
 
             for(char c:ori_message){
                 size_t position =alphabet.find(c);
-                if(position!=alphabet ){
+                if(position!=alphabet.npos ){
                     char new_char{key.at(position)};
                     encrypted_message+=new_char;
                 }
