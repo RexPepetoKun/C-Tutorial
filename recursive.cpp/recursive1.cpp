@@ -63,3 +63,9 @@ double a_penny_doubled_everyday(int n, double amount) {
 int test_function_activation_count() {
     return function_activation_count;
 }
+
+// To test the functions above, please always remember to create a main function
+int main(){
+
+    return 0;
+}
