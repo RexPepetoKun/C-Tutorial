@@ -2,26 +2,37 @@
 #include <vector>
 using namespace std;
 
+int main()
+{
+    int A[5] = { 2, 4, 6, 8, 10 };
+    int *p = A;
+    int *q = &A[3];
 
-double get_smallest(vector <int> &list){
-   int smallest = list.at(0);
-   
-   for (int i=1;i<list.size();i++){
-        if (smallest > list.at(i)){
-            smallest = list.at(i);
-        }
-        
+    cout << "Addresses of elements of the Array:\n";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << A + i << endl;
     }
-    
-    return smallest;
-}
-int main(){
-    vector <int> list{4,5,6,1,10};
-    cout<<"How many integers are inside the list? "<<list.size()<<endl;
 
-    cout<<"The smallest integer in the list is:"<<get_smallest(list)<<endl;
-   
-    cout<<list.at(0);
-   
+    cout << "\nOperations:\n";
+    p++;
+    cout << "p++:" << p << endl;
+    p--;
+    cout << "p--:" << p << endl;
+    p = p + 2;
+    cout << "p = p + 2:" << p << endl;
+    p = p - 2;
+    cout << "p = p - 2:" << p << endl;
+    int d = q - p;
+    d = d / 2;
+    cout << "d = q - p:" << d << endl;
 }
+
+    
+
+
+
+
+
+
 
