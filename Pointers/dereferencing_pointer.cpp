@@ -7,7 +7,7 @@ int main(){
 //Example 1:
     int score{100};
     int *score_ptr{&score};
-
+    
     cout<<*score_ptr<<endl;
  
 // Example 2:

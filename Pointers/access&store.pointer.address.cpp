@@ -20,7 +20,7 @@ int main(){
 
     int *score_ptr{nullptr};  //declaring variable known as score_ptr as pointer and set it value to zero.
 
-    score_ptr =&score;         // setting value of the pointer variable to 'score''s memory address.
+    score_ptr =&score;         // then set value of the pointer variable to 'score''s memory address.
 
 
     //int *score_ptr{&score};   // declaring score_ptr as &score instead of nullptr gives different results
