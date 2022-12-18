@@ -26,4 +26,5 @@ int main(){
     // Emperor.health="100";
     Emperor.talk("Behold, the Imperator of the known world");//ok because public 
 
+    
 }
